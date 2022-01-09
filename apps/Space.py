@@ -2,7 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Space Invaders")
 
-hide_st_style = """
+def app()
+        hide_st_style = """
             <head>
             <meta charset="UTF-8" />
             <title>Space Invaders</title>
@@ -18,4 +19,4 @@ hide_st_style = """
             <script defer src="game.js"></script>
             </body>
             """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+          st.markdown(hide_st_style, unsafe_allow_html=True)
