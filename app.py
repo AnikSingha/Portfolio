@@ -23,5 +23,4 @@ st.markdown("""
 app.add_app("About Me", Home.app)
 app.add_app("Titanic Log Regression", titanic.app)
 # The main app
-add.add_app("Space Invaders", Space.app)
 app.run()
