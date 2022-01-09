@@ -1,6 +1,6 @@
 import streamlit as st
 from Multi_App import MultiApp
-from apps import Home, titanic, Space# import your app modules here
+from apps import Home, titanic# import your app modules here
 
 st.set_page_config(page_title="My Projects")
 
