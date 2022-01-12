@@ -4,7 +4,7 @@ import streamlit as st
 def app():
     st.title('Space Invaders')
 
-    st.write('I recreated the classic arcade game Space Indavers using the PhaserJS javascript framework')
+    st.write('I recreated the classic arcade game Space Invaders using the PhaserJS javascript framework')
 
     st.write('Visit this link to play the game')
 
